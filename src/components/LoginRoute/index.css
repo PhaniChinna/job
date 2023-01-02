@@ -1,0 +1,101 @@
+.Login-container {
+  background-color: #000000;
+  height: 100vh;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+.Login-Route {
+  background-color: #202020;
+  width: 400px;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.Website-logo1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 50px;
+}
+
+.List {
+  color: white;
+}
+
+.Form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Label-User {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin-left: -30px;
+  margin-bottom: 10px;
+}
+
+.input-User {
+  width: 300px;
+  height: 30px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border: 1px solid #b6c5ff;
+  color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-left: -30px;
+}
+
+.Label-Password {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin-left: -30px;
+  margin-bottom: 10px;
+}
+
+.input-Password {
+  width: 300px;
+  height: 30px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border: 1px solid #b6c5ff;
+  color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-left: -30px;
+}
+
+.Button-password {
+  width: 300px;
+  margin-left: -30px;
+  margin-bottom: 20px;
+  background-color: blue;
+  outline: none;
+  border: none;
+  font-family: Roboto;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.Error {
+  color: red;
+  margin-left: -25px;
+  margin-top: -10px;
+}

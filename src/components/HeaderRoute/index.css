@@ -1,0 +1,121 @@
+.Header-container {
+  background-color: #272727;
+  padding: 10px;
+  width: 100vw;
+  height: 80px;
+}
+
+.Header-Route-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Website-Logo1 {
+  margin-top: 10px;
+  width: 130px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.UnOrdered-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.UnOrdered-Home {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.UnOrdered-jobs {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.LogOut-Button {
+  font-family: Roboto;
+  font-size: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+  margin-top: 13px;
+  background-color: blue;
+  margin-right: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.Nav-mobile-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 767px) {
+  .Nav-mobile-Container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .UnOrdered-Home {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .UnOrdered-jobs {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .LogOut-Button {
+    display: none;
+  }
+}
+
+.UnOrdered-mobile {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.AiHome {
+  width: 22px;
+  color: white;
+  margin-left: -300px;
+  margin-top: 8px;
+  cursor: pointer;
+  height: 22px;
+}
+
+.HiMall {
+  width: 22px;
+  height: 22px;
+  color: white;
+  margin-left: -200px;
+  margin-top: 8px;
+}
+
+.FiLogOut {
+  width: 22px;
+  height: 22px;
+  color: white;
+  margin-top: 22px;
+  margin-right: 40px;
+}
